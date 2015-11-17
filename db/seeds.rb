@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+link = Link.create([{
+	url_original: 'https://www.ironhack.com/es/curso-programacion-web', 
+	url_short: 123
+	}])
