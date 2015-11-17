@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151117151146) do
+ActiveRecord::Schema.define(version: 20151117162712) do
 
   create_table "links", force: :cascade do |t|
     t.string   "url_original"
-    t.integer  "url_short"
+    t.string   "url_short"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end

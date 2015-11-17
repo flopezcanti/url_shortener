@@ -8,5 +8,18 @@
 
 link = Link.create([{
 	url_original: 'https://www.ironhack.com/es/curso-programacion-web', 
-	url_short: 123
-	}])
+	url_short: Link.random_url_short(3)
+	},
+	{
+	url_original: 'https://www.ironhack.com/es/curso-programacion-web', 
+	url_short: Link.random_url_short(3)
+	},
+	{
+	url_original: 'https://www.ironhack.com/es/curso-programacion-web', 
+	url_short: Link.random_url_short(3)
+	},
+	{
+	url_original: 'https://www.ironhack.com/es/curso-programacion-web', 
+	url_short: Link.random_url_short(3)
+	}
+	])
